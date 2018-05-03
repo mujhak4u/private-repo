@@ -1,0 +1,32 @@
+
+1. The Query should extract all collumns in the table/schema 'runners' whose Id ('winner_id) is not included in the Table/Schema 'races', and should be ordered/arranged by the column 'name', and in ascending order.
+
+Termination operator (;) should be included to execute the query successfully. 
+
+
+2.  There is nothing to be displayed here, due to the errors in the SQL query as follows:
+	
+	a. there is no termination operator (;) in the query
+	b. there is no joint operators (.) and '=' to identify the relationships between the two tables. The relationship is 	usually The Primary Key of the first Table should be the Foreign Key in the next Table to establish the 	relationships.
+	d. you can also add 'ORDER BY' in order to sort your results as desired.
+
+	The idle query should be:
+
+	Select * From Emp, Dept
+
+	Where Employee_Id.Emp = Employee_Id.Dept
+
+	Order By Employee_Id.Emp;
+
+
+3.  Since there is no specific swap function, we could as well use 'DECODE' function if we are using the Oracle Database as follows:	
+	Update SALARIES
+
+	SET gender = DECODE(gender,'m','f','f','m')
+
+	WHERE gender IN ('m','f');
+
+4.  The query will not be executed due to missing ('') operators in the ReferredBy value '2'. The query should be executed successfully once the error has been fixed. It should extract the names that are not being referred by Jane Smith, including her.
+
+
+
