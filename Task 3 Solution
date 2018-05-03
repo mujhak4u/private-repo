@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form</title>
+<style type="text/css">
+<!--
+#apDiv1 {
+	position:absolute;
+	left:6px;
+	top:23px;
+	width:658px;
+	height:572px;
+	z-index:1;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="apDiv1">
+  <form id="form1" name="Task 3" method="post" action="mujhak4u@gmail.com">
+    <label>Full Name
+      <input type="text" name="Name" id="Name" />
+    </label>
+    <p>
+      <label>Email Address
+      <input type="text" name="email" id="email" />
+      </label>
+    </p>
+    <p>
+      <label>Subject
+      <input type="text" name="Subject" id="Subject" />
+      </label>
+    </p>
+    <p>
+      <label>Massage
+      <textarea name="Massage" id="Massage" cols="45" rows="5"></textarea>
+      </label>
+    </p>
+    <p>
+      <label>
+      <input type="submit" name="Submit" id="Submit" value="Submit" />
+      </label>
+    </p>
+  </form>
+</div>
+</body>
+</html>
