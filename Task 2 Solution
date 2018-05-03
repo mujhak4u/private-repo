@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+
++<head>
+
++<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
++<title>African Countries</title>
+
++<style type="text/css">
+
++<!--
+
++#apDiv1 {
+
++	position:absolute;
+
++	left:6px;
+
++	top:23px;
+
++	width:658px;
+
++	height:572px;
+
++	z-index:1;
+
++}
+
+-->
+
+</style>
+
+</head>
+<body>
+
++<div>
+
++  <table width="707" border="1">
+
++    <tr>
+
++      <td width="226"><strong>Country Name</strong></td>
+
++      <td width="119"><strong>Capital</strong></td>
+
++      <td width="121"><strong>Population</strong></td>
+
++      <td width="98"><strong>Time Zone</strong></td>
+
++      <td width="109"><strong>Flag</strong></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Algeria</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Algiers</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">40, 400,000</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="algeria.jpg" alt="Algeria_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Angola</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Luanda</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">25,868,000</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="angola.jpg" alt="Angola_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green" ><span aria-labelledby="value">Benin</span></td>
+
++      <td bgcolor="green" ><span aria-labelledby="value">Porto-Novo</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">10,653,654</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="benin.jpg" alt="benin_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Botswana</span></td>
+
++      <td><span aria-labelledby="value">Gaborone</span></td>
+
++      <td><span aria-labelledby="value">2,141,206</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src="botswana.jpg" alt="botswana_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">British Indian Ocean Territory</span></td>
+
++      <td><span aria-labelledby="value">Diego Garcia</span></td>
+
++      <td><span aria-labelledby="value">3,000</span></td>
+
++      <td><span aria-labelledby="value">UTC+06:00</span></td>
+
++      <td><img src="britishocean.jpg" alt="britishocean_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Burkina Faso</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Ouagadougou</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">19,034,397</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"> <img src="burkina.jpg" alt="burkina_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Burundi</span></td>
+
++      <td><span aria-labelledby="value">Bujumbura</span></td>
+
++      <td><span aria-labelledby="value">10,114,505</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src="burundi.jpg" alt="burundi_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Cameroon</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Yaoundé</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">22,709,892</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green" ><img src="cameroon.jpg" alt="cameroon_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Cabo Verde</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Praia</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">531,239</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC-01:00</span></td>
+
++      <td bgcolor="green"><img src="verde.jpg" alt="verde_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green" ><span aria-labelledby="value">Central African Republic</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Bangui</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">4,998,000</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="car.jpg" alt="car_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Chad</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">N'Djamena</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">14,497,000</span></td>
+
++      <td bgcolor="green" ><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="chad.jpg" alt="chad_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Comoros</span></td>
+
++      <td><span aria-labelledby="value">Moroni</span></td>
+
++      <td><span aria-labelledby="value">806,153</span></td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="comoros.jpg" alt="comoros_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Congo</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Brazzaville</span></td>
+
++      <td bgcolor="green" ><span aria-labelledby="value">4,741,000</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="congo.jpg" alt="congo_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Congo (Democratic Republic of the</span></td>
+
++      <td><span aria-labelledby="value">Kinshasa</span></td>
+
++      <td><span aria-labelledby="value">85,026,000</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src="drc.jpg" alt="drc_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Djibouti</span></td>
+
++      <td><span aria-labelledby="value">Djibouti</span></td>
+
++      <td><span aria-labelledby="value">900,000</span></td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="djibouti.jpg" alt="djibouti_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Egypt</span></td>
+
++      <td>Cairo</td>
+
++      <td><span aria-labelledby="value">91,290,000</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src="egypt.jpg" alt="egypt_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Equatorial Guinea</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Malabo</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">1,222,442</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="eqguinea.jpg" alt="equgunea_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Eritrea</span></td>
+
++      <td><span aria-labelledby="value">Asmara</span></td>
+
++      <td><span aria-labelledby="value">5,352,000</span></td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="eritrea.jpg" alt="eritrea_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Ethiopia</span></td>
+
++      <td><span aria-labelledby="value">Addis Ababa</span></td>
+
++      <td><span aria-labelledby="value">92,206,005</span></td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="ethiopia.jpg" alt="ethiopia_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green" ><span aria-labelledby="value">Gabon</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Libreville</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">1,802,278</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green" ><img src="gabon.jpg" alt="gabon_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green" ><span aria-labelledby="value">Gambia</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Banjul</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">1,882,450</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+00:00</span></td>
+
++      <td bgcolor="green" ><img src="gambia.jpg" alt="gambian_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Ghana</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Accra</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">27,670,174</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="ghana.jpg" alt="ghsna_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Guinea</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Conakry</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">12,947,000</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="guinea.jpg" alt="guinea_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Guinea-Bissau</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Bissau</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">1,547,777</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="bsgunea.jpg" alt="bsguinea_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Côte d'Ivoire</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Yamoussoukro</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">22,671,331</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="diivoire.jpg"alt="cotedivoire_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Kenya</span></td>
+
++      <td><span aria-labelledby="value">Nairobi</span></td>
+
++      <td><span aria-labelledby="value">47,251,000</span></td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="kenya.jpg" alt="kenya_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Lesotho</span></td>
+
++      <td><span aria-labelledby="value">Maseru</span></td>
+
++      <td><span aria-labelledby="value">1,894,194</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src="lesotho.jpg" alt="lesotho_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Liberia</span></td>
+
++      <td bgcolor="green"span aria-labelledby="value">Monrovia</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">4,615,000</span></td>
+
++      <td bgcolor="green" ><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="liberia.jpg" alt="liberia_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Libya</span></td>
+
++      <td bgcolor="green" ><span aria-labelledby="value">Tripoli</span></td>
+
++      <td  bgcolor="green"><span aria-labelledby="value">6,385,000</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green" ><img src="libya.jpg" alt="libya_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Madagascar</span></td>
+
++      <td><span aria-labelledby="value">Antananarivo</span></td>
+
++      <td><span aria-labelledby="value">22,434,363</span></td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="madagascar.jpg" alt="madagascar_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Malawi</span></td>
+
++      <td><span aria-labelledby="value">Lilongwe</span></td>
+
++      <td><span aria-labelledby="value">16,832,910</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src="malawi.jpg" alt="malawi_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Mali</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Bamako</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">18,135,000</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="mali.jpg" alt="mali_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Mauritania</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Nouakchott</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">3,718,678</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="mauritania.jpg" alt="mauritanian_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Mauritius</span></td>
+
++      <td><span aria-labelledby="value">Port Louis</span></td>
+
++      <td><span aria-labelledby="value">1,262,879</span></td>
+
++      <td><span aria-labelledby="value">UTC+04:00</span></td>
+
++      <td><img src="mauritius.jpg" alt="mauritius_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Morocco</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Rabat</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">33,337,529</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="morocco.jpg" alt="morocco_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Mozambique</span></td>
+
++      <td><span aria-labelledby="value">Maputo</span></td>
+
++      <td><span aria-labelledby="value">26,423,700</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src=" mozambique.jpg" alt="mozambique_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Namibia</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Windhoek</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">2,324,388</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="namibia.jpg" alt="namibian_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Niger</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Niamey</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">20,715,000</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="niger.jpg" alt="niger_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Nigeria</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Abuja</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">186,988,000</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="nigeria.jpg" alt="nigerian_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Rwanda</span></td>
+
++      <td><span aria-labelledby="value">Kigali</span></td>
+
++      <td><span aria-labelledby="value">11,553,188</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src="rwanda.jpg" alt="rwandan_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Sao Tome and Principe</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">São Tomé</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">187,356</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="saotome.jpg" alt="saotome_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Senegal</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Dakar</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">14,799,859</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="senegal.jpg" alt="senegal_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Seychelles</span></td>
+
++      <td><span aria-labelledby="value">Victoria</span></td>
+
++      <td><span aria-labelledby="value">91,400</span></td>
+
++      <td><span aria-labelledby="value">UTC+04:00</span></td>
+
++      <td><img src="seychelles.jpg" alt="seychelles_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Sierra Leone</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Freetown</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">7,075,641</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="sirrealeaone.jpg" alt="sirraleaone_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Somalia</span></td>
+
++      <td><span aria-labelledby="value">Mogadishu</span></td>
+
++      <td><span aria-labelledby="value">11,079,000</span></td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="somalia.jpg" alt="somalian_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">South Africa</span></td>
+
++      <td><span aria-labelledby="value">Pretoria</span></td>
+
++      <td><span aria-labelledby="value">55,653,654</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src="southafrican.jpg" alt="southafrican_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">South Sudan</span></td>
+
++      <td><span aria-labelledby="value">Juba</span></td>
+
++      <td><span aria-labelledby="value">12,131,000</span></td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="southsudan.jpg" alt="southsudanese_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Sudan</span></td>
+
++      <td><span aria-labelledby="value">Khartoum</span></td>
+
++      <td><span aria-labelledby="value">39,598,700</span></td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="sudan.jpg" alt="sudanesse_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Swaziland</span></td>
+
++      <td><span aria-labelledby="value">Lobamba</span></td>
+
++      <td><span aria-labelledby="value">1,132,657</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src="swaziland.jpg" alt="swaziland_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Tanzania, United Republic of</span></td>
+
++      <td><span aria-labelledby="value">Dodoma</span></td>
+
++      <td><table role="tree" tabindex="0" aria-label="" aria-activedescendant="/53/capital" cellspacing="0" cellpadding="0">
+
++        <tbody role="presentation">
+
++          <tr id="/53/population" role="treeitem" aria-level="1" aria-selected="false" aria-expanded="true">
+
++            <td role="presentation"><span aria-labelledby="default" data-level="1"> </span></td>
+
++            <td role="presentation"><span aria-labelledby="value">55,155,000</span></td>
+
++          </tr>
+
++        </tbody>
+
++      </table>      </td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="tanzania.jpg" alt="tanzanian_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Togo</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Lomé</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">7,143,000</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC</span></td>
+
++      <td bgcolor="green"><img src="togo.jpg" alt="togolesse_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Tunisia</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">Tunis</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">11,154,400</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+01:00</span></td>
+
++      <td bgcolor="green"><img src="tunisia.jpg" alt="tunisian_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Uganda</span></td>
+
++      <td><span aria-labelledby="value">Kampala</span></td>
+
++      <td><span aria-labelledby="value">33,860,700</span></td>
+
++      <td><span aria-labelledby="value">UTC+03:00</span></td>
+
++      <td><img src="uganda.jpg" alt="ugandan_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td bgcolor="green"><span aria-labelledby="value">Western Sahara</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">El Aaiún</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">510,713</span></td>
+
++      <td bgcolor="green"><span aria-labelledby="value">UTC+00:00</span></td>
+
++      <td bgcolor="green"><img src="westsahara.jpg" alt="westsahara_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Zambia</span></td>
+
++      <td><span aria-labelledby="value">Lusaka</span></td>
+
++      <td><span aria-labelledby="value">15,933,883</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td><img src="zambibia.jpg" alt="zambian_flag" /></td>
+
++    </tr>
+
++    <tr>
+
++      <td><span aria-labelledby="value">Zimbabwe</span></td>
+
++      <td><span aria-labelledby="value">Harare</span></td>
+
++      <td><span aria-labelledby="value">14,240,168</span></td>
+
++      <td><span aria-labelledby="value">UTC+02:00</span></td>
+
++      <td>z<img src="zimbabwe.jpg" alt="zimbaweian_flag" /></td>
+
++    </tr>
+
++  </table>
+
++</div>
+
++</body>
+
++</html>
